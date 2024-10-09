@@ -1,0 +1,26 @@
+.navbar {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-left: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #1877f2;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
